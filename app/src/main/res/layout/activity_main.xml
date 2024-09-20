@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+<!--
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="156dp"
+        android:gravity="center"
+        android:hint="Enter your name"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="125dp"
+        android:layout_height="76dp"
+        android:layout_x="124dp"
+        android:layout_y="587dp"
+        android:onClick="process"
+        android:gravity="center"
+        android:text="Submit" />
+
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="416dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="245dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter your address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/t3"
+        android:layout_width="416dp"
+        android:layout_height="wrap_content"
+        android:layout_x="-3dp"
+        android:layout_y="424dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="enter your phone number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/t4"
+        android:layout_width="419dp"
+        android:layout_height="wrap_content"
+        android:layout_x="-3dp"
+        android:layout_y="335dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter your age"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_x="93dp"
+        android:layout_y="42dp"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="#61AF4C"
+        android:textSize="40dp" />
+        -->
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="226dp"
+        android:layout_height="152dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056"
+        app:srcCompat="@drawable/pregister" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Register.."
+
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="360dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.675">
+        <EditText
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32px"
+            android:layout_marginBottom="13dp"
+            android:hint="Your Name"
+            android:textColorHint="@color/borderColor"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:hint="Your Age.."
+            android:textColorHint="@color/borderColor"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:hint="Your Address"
+            android:textColorHint="@color/borderColor"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:hint="Your Phone Number.."
+            android:textColorHint="@color/borderColor"
+            android:textSize="20sp" />
+
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@color/btnbgColor"
+            android:backgroundTint="@color/btnbgColor"
+            android:onClick="process"
+            android:padding="5dp"
+            android:text="SUBMIT"
+            android:textColor="#000"
+
+            app:backgroundTint="@color/btnbgColor" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

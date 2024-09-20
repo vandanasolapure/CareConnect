@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Doctor_home_page">
+
+
+
+
+ <!--
+
+
+
+
+
+
+    <Button
+        android:id="@+id/button90"
+        android:layout_width="198dp"
+        android:layout_height="62dp"
+        android:text="release_notice:"
+        android:layout_below="@id/button5"
+
+        android:onClick="release_notice"
+
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button90"
+        android:layout_marginTop="1dp"
+        android:onClick="gotocheckregister"
+        android:text="Check registed patients list"
+          android:id="@+id/button13"      />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button90"
+        android:layout_marginTop="53dp"
+        android:onClick="invite"
+        android:text="Invite patients"
+        android:id="@+id/button14"
+        />-->
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="286dp"
+        android:layout_height="481dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62">
+
+        <Button
+
+            android:id="@+id/button5"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="start"
+            android:text="store record"
+            app:backgroundTint="@color/btnbgColor" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="set_status"
+            android:text="clinic status"
+            app:backgroundTint="@color/btnbgColor" />
+
+        <Button
+            android:id="@+id/button90"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="release_notice"
+            android:text="release_notice:"
+            app:backgroundTint="@color/btnbgColor" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="invite"
+            android:text="Invite patients"
+            app:backgroundTint="@color/btnbgColor" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="gotocheckregister"
+            android:text="patients list"
+            app:backgroundTint="@color/btnbgColor" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="348dp"
+        android:layout_height="83dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+
+        android:text="Welcome"
+        android:textColor="@color/borderColor"
+        android:textSize="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.361" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="636dp"
+        android:background="#E91E63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
